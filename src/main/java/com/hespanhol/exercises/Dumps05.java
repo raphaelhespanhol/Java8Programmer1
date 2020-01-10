@@ -15,5 +15,4 @@ public class Dumps05 {
 			System.out.println("Read: ".concat(line));
 		}
 	}
-
 }

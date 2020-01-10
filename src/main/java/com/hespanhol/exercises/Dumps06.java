@@ -6,6 +6,10 @@ import java.util.function.Predicate;
 
 public class Dumps06 {
 
+	private int num;
+	private String alphabet;
+	private boolean status;
+	
 	public static void main(String[] args) {
 		List<String> animals = new ArrayList<String>();
 		animals.add("fish");
@@ -21,4 +25,30 @@ public class Dumps06 {
 		}
 		System.out.println(); 
 	}
+
+	public int getNum() {
+		return num;
+	}
+
+	public void setNum(int num) {
+		this.num = num;
+	}
+
+	public String getAlphabet() {
+		return alphabet;
+	}
+
+	public void setAlphabet(String alphabet) {
+		this.alphabet = alphabet;
+	}
+
+	public boolean isStatus() {
+		return status;
+	}
+
+	public void setStatus(boolean status) {
+		this.status = status;
+	}
+	
+	
 }
